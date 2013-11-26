@@ -1,0 +1,3 @@
+This is a file that can be used if required by the program.
+For instance, one of the command line parameters from above may direct the program to process a file.
+It should be referring to this file: in_1.txt.

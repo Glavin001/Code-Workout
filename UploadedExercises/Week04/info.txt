@@ -1,0 +1,14 @@
+Design, write and test a C++ program that will read two command-line
+   parameters as input. The first must be the name of a textfile, and 
+   the second must be a positive integer. The textfile contains an arbitrary
+   number of lines, with one word on each line, starting at the left margin.
+   The positive integer indicates how many words are to be chosen at random
+   from all the words in the file (assume it is <= the number of lines in
+   the file. The program must read in the file, randomly choose the required
+   number of words from the file, and then print out those words, one per
+   line, ordered by word length (shortest to longest).
+
+   The program does no testing, and so is not responsible if invalid input
+   or no input is supplied.
+   <br />
+   <strong>Note:</strong> C++11 is enabled, however, the current version of g++ on the <strong><em>CS machine does not support lambda functions</em></strong>.

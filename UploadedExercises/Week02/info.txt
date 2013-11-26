@@ -1,0 +1,56 @@
+
+Design, write and test a C++ program that accepts any number of
+command-line arguments and satisfies the following properties:
+
+=================================================================
+First, the executable must be placed in a file with this name:
+find_position_of.exe
+
+=================================================================
+Second, here is an illustration of its typical behavior:
+
+> find_position_of 6 in 2 4 8 6 5 9
+
+produces the following single line of output:
+
+6 is located in position 4 among the given values.
+
+This must work whatever the values are. They don\'t have to
+be small integers, or even integers. They could be strings,
+or a mixture of strings and numbers, for example.
+
+=================================================================
+Third, if the value sought is not present, the behavior looks
+like this:
+
+> find_position_of 6 in 2 4 8 7 5 9
+
+must produce the following single line of output:
+
+6 is not among the given values.
+
+=================================================================
+Fourth, and finally, if there are not enough command-line 
+parameters (at least three, in addition to the program name)
+or if the second one after the program name is not \"in\", then
+the program terminates after displaying the following three-line
+message:
+
+Input error:
+You must have at least three command-line parameters,
+and the second one must be \"in\".
+
+=================================================================
+When you have tested your program to the point where you are
+happy with it, do the following:
+
+- On your K: drive create a folder called week02.
+- Copy just your executable (which must be named
+  find_position_of.exe) to your week02 subdirectory.
+- Tell your instructor that you have done this.
+
+=================================================================
+Suggestion:
+Develop the program for the \"typical\" case first.
+When you have this working, then worry about the case of the
+missing value, and the error cases.
